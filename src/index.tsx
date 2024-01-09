@@ -35,7 +35,6 @@ const cache = createCache({
     key: "css",
     prepend: true,
     container: shadowContainer,
-    speedy: false
 });
 
 const shadowTheme = createTheme({
